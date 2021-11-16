@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="sv">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Internet</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link" href="index.html">Hem</a>
+              <a class="nav-link" href="klienttekniker.html">Klienttekniker</a>
+              <a class="nav-link" href="projektmetodik.html">Projektmetodik</a>
+              <a class="nav-link active" aria-current="page" href="internet.html">Internet</a>
+              <a class="nav-link" href="tillganglighet.html">Tillgänglighet</a>
+              <a class="nav-link" href="analys.html">Analys</a>
+              <a class="nav-link" href="kontakt.html">Kontakt</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <br>
+      
+      <h1>Internet</h1>
+    
+      <br>
+      <div class="info">
+        <img src="/img/wires.jpg" alt="Bild på röda kablar" class="images" loading="lazy"><br>
+        <div>
+        <h2 id="Klient-server-modellen">Klient-server-modellen</h2>
+        <p>Klient-server-modellen beskriver hur servrar tillhandahåller tjänster till klienter, en klient 
+          kan till exempel vara en dator eller en smartphone. En enda server kan tillhandahålla resurser till 
+          flera klienter samtidigt. När en klient ansluter till en server kan detta endera accepteras eller 
+          avvisas av servern, om anslutningen accepteras, oftast genom att rätt lösenord har matats in, 
+          upprätthåller servern en anslutning med klienten via ett protokoll 
+          (<a href="internet.html#protokoll">se nedan</a>).</p>
+        <br>
+      </div>
+
+        <h2 id="Internetkommunikation">Internetkommunikation</h2>
+        <p>Internetkommunikation är ett nätverk av sammankopplade enheter som kan kommunicera med varandra. 
+          För att detta ska fungera krävs det att enheterna följer samma regelverk för att skicka och ta emot 
+          information, så kallade protokoll. Det mest grundläggande protokollet som används på internet är 
+          internetprotokollet (IP), alla internetanslutna enheter har en egen IP-adress som gör det möjligt 
+          att kunna kommunicera med andra enheter. För att förenkla användandet av IP-adresser använder 
+          internet-leverantörer så kallade DNS-servrar, som översätter det användaren skriver i webbläsarens 
+          adressfält till just IP-adresser. </p>
+
+          <div class="video-responsive">
+            <div style="text-align: center;">
+          <iframe width="420" height="315" src="https://www.youtube.com/embed/4tQ0mpP83g8" 
+          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; 
+          encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+          </div>
+
+        <br><br>
+          <div>
+        <h2 id="protokoll">Protokoll</h2>
+        <p>Ett protokoll är ett regelverk som gör det möjligt för olika enheter att kommunicera med varandra, 
+          oavsett tillverkare eller typ. Olika protokoll används på olika sätt, exempelvis så kan en typ etablera 
+          kommunikationen medan en annan kan dirigera information från en enhet till en annan.  </p>
+        <br>
+        </div>
+
+        <div>
+        <h2 id="https/http">HTTP / HTTPS</h2>
+        <p>HTTP är ett protokoll, som står för HyperText Transer Protocol, som styr hämtandet och skickandet 
+          av data mellan hemsidor och servrar. HTTP har sedan 2010-talet succesivt bytts ut mot en säkrare 
+          version, nämligen HTTPS, där s:et står för Secure och innebär att informationen som skickas och tas 
+          emot har krypterats för att skydda användare när de hanterar känslig information som till exempel 
+          bankärenden. Detta görs möjligt genom ett SSL-certifikat, vilket numera är ett krav för att rankas 
+          av Google. </p>
+        <br>
+        </div>
+
+        <div>
+        <h2 id="ftps/ftp">FTP / FTPS</h2>
+        <p>FTP står för File Transfer Protocol och är även det ett protokoll som hanterar kommunikation och 
+          används för att föra över filer. FTP har, precis som HTTP, en krypterad variant som kallas FTPS och 
+          även här står s:et för Secure. FTP-servrar är programvaruapplikationer som gör det möjligt att föra 
+          över filer från en enhet till en annan, servern fungerar som en mittpunkt mellan avsändarens och 
+          mottagarens enheter.  </p>
+        <br>
+      </div>
+      </div>
+
+      <br><footer>
+      <p class="text-center">© Hannah Frykman, 2021</p>
+      </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  </body>
+</html>
